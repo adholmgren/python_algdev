@@ -2,7 +2,7 @@
 Based on a talk that I gave at Ball Aerospace. Goes over the basics of Jupyter, skimage/sklearn examples, optimizing code.
 
 The main file is the Jupter notebook SWTP-PythonAlgDev.ipynb. Another file SWTP-PythonAlgDev.py exists, which is the percent formatted
-version of the json notebook (see the [Editing the notebook](# Editing the notebook) section for more details).
+version of the json notebook (see the [Editing the notebook](#editing-the-notebook) section for more details).
 
 Note: certain parts of the optimization section of the notebook will write files to the repo.
 
