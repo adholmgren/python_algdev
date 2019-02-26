@@ -10,9 +10,7 @@ Note: certain parts of the optimization section of the notebook will write files
 File > Download as > Reveal.js slides (html)  
 or in a terminal run
 ```
-jupyter nbconvert --to slides SWTP-PythonAlgDev.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme=sky 
---SlidesExporter.reveal_scroll=True 
---SlidesExporter.reveal_transition=zoom
+jupyter nbconvert --to slides SWTP-PythonAlgDev.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme=sky --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=zoom
 ```
 
 # Editing the notebook
