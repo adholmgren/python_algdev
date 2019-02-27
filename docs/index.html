@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="../reveal.js/css/reveal.css">
-<link rel="stylesheet" href="../reveal.js/css/theme/sky.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/css/theme/sky.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '../reveal.js/css/print/pdf.css';
+        link.href = 'reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="../reveal.js/lib/js/html5shiv.js"></script>
+<script src="reveal.js/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -14640,10 +14640,10 @@ Wall time: 2.29 s
 
 
 
-<div id="d6aba76b-cbdf-4c52-8c66-ad0d92f1b480"></div>
+<div id="f6858acf-a99d-4f10-bf50-14ebe202a768"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#d6aba76b-cbdf-4c52-8c66-ad0d92f1b480');
+var element = $('#f6858acf-a99d-4f10-bf50-14ebe202a768');
 $.getScript("https://raw.github.com/marijnh/CodeMirror/master/mode/fortran/fortran.js", function () {
 IPython.config.cell_magic_highlight['magic_fortran'] = {'reg':[/^%%fortran/]};});
 
@@ -15480,8 +15480,8 @@ require(
       waitSeconds: 15
     },
     [
-      "../reveal.js/lib/js/head.min.js",
-      "../reveal.js/js/reveal.js"
+      "reveal.js/lib/js/head.min.js",
+      "reveal.js/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -15496,9 +15496,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "../reveal.js/lib/js/classList.js",
+                { src: "reveal.js/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "../reveal.js/plugin/notes/notes.js",
+                { src: "reveal.js/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
