@@ -15,11 +15,12 @@
 # ---
 
 # + {"slideshow": {"slide_type": "slide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
-# # Using Python for Algorithm Development (Press spacebar to advance)
+# # Using Python for Algorithm Development (Presentation mode: press spacebar to advance)
 
 # + {"slideshow": {"slide_type": "fragment"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
 # Author: Andrew Holmgren<br>
-# Contact: <email>adholmgren@gmail.com<email>
+# Contact: <email>adholmgren@gmail.com<email>  
+# [github link](https://github.com/adholmgren/python_algdev)
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
 # Meant as a guide for those who want to transition out of MATLAB, or just generally explore Python for scientific computing. Broken up as, firstly:
@@ -1397,8 +1398,8 @@ plt.imshow(phi_soln_f, origin='lower')
 #     PyObject *weakreflist;
 # } PyArrayObject;
 # ```
-# -
 
+# + {"slideshow": {"slide_type": "subslide"}, "cell_type": "markdown"}
 # Note: all the cpp code below needs more and better error checking, if you develop you should do error checking but they're omitted here in order to not clutter the concepts.
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
