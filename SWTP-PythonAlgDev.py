@@ -1266,8 +1266,12 @@ def PDE_solve_np(niter):
 # If you're coming from MATLAB, [fortran](http://www.fortran90.org/src/best-practices.html) is actually very easy to use. The indexing is 1 based by default (can change indexing to 0 based at time of declaration) and there's built-in broadcasting of arrays. Despite the common misconception, the language is not old and useless -- many libraries are calling fortran code in the background (e.g. anything using LAPACK, which is most things).
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
-# Fortran magic compilation from within the notebook itself (basically a wrapper on another program called f2py). The library should be installed from the appropriate anaconda channel  
-# `conda install -c conda-forge fortran-magic`
+# Fortran magic compilation from within the notebook itself (basically a wrapper on another program called f2py). The library should be installed from the appropriate anaconda channel or through pip  
+# `conda install -c conda-forge fortran-magic`  
+# `pip install fortran-magic`
+# -
+
+# !pip install fortran-magic
 
 # + {"slideshow": {"slide_type": "fragment"}, "hideCode": false, "hidePrompt": false}
 # %load_ext fortranmagic
