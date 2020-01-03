@@ -14,6 +14,10 @@
 #     name: python3
 # ---
 
+# If you have a Google account you can open the code in Google colab. Colab is an environment that will give free resources (you can get a GPU or a TPU for up to 12hrs). 
+#
+# [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adholmgren/python_algdev/blob/master/SWTP-PythonAlgDev.ipynb)
+
 # + {"slideshow": {"slide_type": "slide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
 # # Using Python for Algorithm Development (Presentation mode: press spacebar to advance)
 
@@ -21,11 +25,6 @@
 # Author: Andrew Holmgren<br>
 # Contact: <email>adholmgren@gmail.com<email>  
 # [github link](https://github.com/adholmgren/python_algdev)
-# -
-
-# If you have a Google account you can open the code in Google colab. Colab is an environment that will give free resources (you can get a GPU or a TPU for up to 12hrs). 
-#
-# [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adholmgren/python_algdev/blob/master/SWTP-PythonAlgDev.ipynb)
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
 # Meant as a guide for those who want to transition out of MATLAB, or just generally explore Python for scientific computing. Broken up as, firstly:
