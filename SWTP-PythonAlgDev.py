@@ -7,7 +7,7 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.4'
-#       jupytext_version: 1.2.3
+#       jupytext_version: 1.2.4
 #   kernelspec:
 #     display_name: Python 3
 #     language: python
@@ -322,13 +322,16 @@ for i in range(5):
 # ###### debugging
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
-# If you're used to using a graphical debugger, such as MATLAB's editor or other IDE, then using pdb may be a big step in unfamiliarity. (If you're used to gdb then pdb is extremely similar and you'll be fine.) IBM has developed a graphical debugger called [pixiedust](https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62) that you can use. You should be able to just use pip to install and then you just need to import as such
+# If you're used to using a graphical debugger, such as MATLAB's editor or other IDE, then using pdb may be a big step in unfamiliarity. (If you're used to gdb then pdb is extremely similar and you'll be fine.) IBM has developed a graphical debugger called [pixiedust](https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62) that you can use (note: currently only works for jupyter notebooks). You should be able to just use pip to install and then you just need to import as such
 # ```python
 # import pixiedust
 # ```
 
 # + {"slideshow": {"slide_type": "subslide"}, "hideCode": false, "hidePrompt": false, "cell_type": "markdown"}
 # Let's try it on a simple function that finds the maximum value in a list
+
+# + {"slideshow": {"slide_type": "fragment"}}
+# !pip install pixiedust
 
 # + {"slideshow": {"slide_type": "fragment"}, "hideCode": false, "hidePrompt": false}
 import pixiedust  # must be own cell for some reason
